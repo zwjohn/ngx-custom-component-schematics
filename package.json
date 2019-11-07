@@ -1,11 +1,12 @@
 {
   "name": "ngx-custom-component-schematics",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "John Zhang's Angular Custom Component Schematic.",
   "scripts": {
     "build": "tsc -p tsconfig.json --watch",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
+  "homepage": "https://github.com/zwjohn/ngx-custom-component-schematics#readme",
   "keywords": [
     "schematics",
     "Angular Schematics"
