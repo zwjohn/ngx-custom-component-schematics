@@ -1,28 +1,13 @@
-# Getting Started With Schematics
+# Angular Schematics Standalone Custom Component Generation 
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+This repository is template for Angular custom component generation, utilizing Angular Schematic
 
-### Testing
+### Install
 
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+npm install ngx-custom-component-schematics
 
-Check the documentation with
-```bash
-schematics --help
-```
 
-### Unit Testing
+### Usage
+change directory to the directory where you want to the component to be generated. Run command below
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
-
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
-```
-
-That's it!
- 
+ng g ngx-custom-component-schematics:cc "My Component"
