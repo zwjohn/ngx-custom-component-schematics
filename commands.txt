@@ -1,0 +1,5 @@
+schematics .:cc "john schema" --debug=false --force
+npm run build
+npm pack
+npm i --no-save ./cc/schematics-cc-0.0.3.tgz
+ng g @schematics/cc:cc "Policy Home"

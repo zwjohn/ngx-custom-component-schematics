@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "cc": {
+      "description": "John's Custom Component Schematic.",
+      "factory": "./cc/index",
+      "schema": "./cc/schema.json"
+    }
+  }
+}

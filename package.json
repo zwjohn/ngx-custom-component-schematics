@@ -1,0 +1,24 @@
+{
+  "name": "ngx-custom-component-schematics",
+  "version": "0.0.3",
+  "description": "John Zhang's Angular Custom Component Schematic.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --watch",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics",
+    "Angular Schematics"
+  ],
+  "author": "John Zhang",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^8.3.7",
+    "@angular-devkit/schematics": "^8.3.7",
+    "@types/jasmine": "^3.3.9",
+    "@types/node": "^8.0.31",
+    "jasmine": "^3.3.1",
+    "typescript": "~3.5.3"
+  }
+}
